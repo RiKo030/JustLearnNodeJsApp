@@ -17,7 +17,7 @@ var userController = require('./controllers/userController.js')
 
 try {
     app.get("/", mainController.main);
-
+    app.get("/user/regisration", userController.userRegistration);
     app.get("/user/account/", userController.userAccount);
     app.listen(1337);
 }

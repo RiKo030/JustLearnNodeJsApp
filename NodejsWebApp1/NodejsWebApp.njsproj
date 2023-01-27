@@ -54,6 +54,7 @@
     <Content Include="views\userAccount.hbs">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\userRegistration.hbs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
