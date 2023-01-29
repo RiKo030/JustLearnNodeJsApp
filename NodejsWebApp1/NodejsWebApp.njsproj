@@ -36,6 +36,9 @@
     <Content Include="controllers\userController.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="styles\main.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\layouts\mainLayout.hbs">
       <SubType>Code</SubType>
     </Content>
@@ -58,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
-    <Folder Include="NewFolder1\" />
+    <Folder Include="styles\" />
     <Folder Include="views\layouts\" />
     <Folder Include="views\" />
     <Folder Include="views\partials\" />
