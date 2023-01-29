@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
+    <Folder Include="NewFolder1\" />
     <Folder Include="views\layouts\" />
     <Folder Include="views\" />
     <Folder Include="views\partials\" />
