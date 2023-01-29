@@ -36,6 +36,7 @@
     <Content Include="controllers\userController.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\img\logo\NASA_logo.svg.png" />
     <Content Include="styles\main.css">
       <SubType>Code</SubType>
     </Content>
@@ -62,6 +63,8 @@
   <ItemGroup>
     <Folder Include="controllers\" />
     <Folder Include="public\" />
+    <Folder Include="public\img\" />
+    <Folder Include="public\img\logo\" />
     <Folder Include="styles\" />
     <Folder Include="views\layouts\" />
     <Folder Include="views\" />

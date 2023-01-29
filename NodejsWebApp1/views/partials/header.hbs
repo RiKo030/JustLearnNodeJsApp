@@ -1,11 +1,34 @@
-<div>
-  <nav>
-    <input type="button" class="button" value="KNOPKA" />
-    <input type="button" class="button" value="KNOPKA" />
-    <input type="button" class="button" value="KNOPKA" />
-    <input type="button" class="button" value="KNOPKA" />
-  </nav>
+<nav>
+  <div>
+    <div id="logo_div">
+      <a href="/">
+        <img
+          src="img/logo/NASA_logo.svg.png"
+          alt="Logo"
+          width="30"
+          height="24"
+          class="main_logo"
+        />
+      </a>
+    </div>
 
-  <div><a href="/">MAIN</a><a href="user/account/">ACCOUNT</a></div>
-  <div><a href="/user/regisration">REGISTRATION</a></div>
-</div>
+    <div id="search_div">
+      <input type="text" class="search" placeholder="Пошук" />
+      <a>
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </a>
+    </div>
+
+    <div id="user_div">
+      <div class="user_button">
+        <a href="/user/regisration">Реєстрація</a>
+      </div>
+      <div class="user_button">
+        <a href="/user/account/">Авторизація</a>
+      </div>
+    </div>
+
+  </div>
+</nav>

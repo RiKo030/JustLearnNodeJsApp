@@ -1,6 +1,24 @@
-.button {
-  width: 100px;
-  height: 50px;
-  background-color: brown;
-  margin-right: 20px;
+.main_logo {
+  width: 50px;
+  height: 34px;
+  margin: 0px 0px 0px 25px;
+}
+.search {
+  border: none;
+}
+#logo_div {
+  width: 10%;
+  display: inline-block;
+}
+#search_div {
+  width: 70%;
+  display: inline-block;
+}
+#user_div {
+  width: 19%;
+  display: inline-block;
+}
+.user_button {
+  display: inline-block;
+  margin-right: 10px;
 }
