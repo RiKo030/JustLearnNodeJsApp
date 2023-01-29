@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
+    <Folder Include="public\" />
     <Folder Include="styles\" />
     <Folder Include="views\layouts\" />
     <Folder Include="views\" />
