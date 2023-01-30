@@ -2,8 +2,13 @@
   text-decoration: none;
   color: black;
 }
+
 p {
   margin-top: 10em;
+}
+
+.mt-18{
+    margin-top: 18px;
 }
 a:hover {
   font-size: 1.1rem;
@@ -13,6 +18,11 @@ a:hover {
   width: 50px;
   height: 34px;
   margin: 0px 0px 0px 25px;
+}
+
+#lost_pass {
+    color: rgb(0, 0, 0);
+    text-shadow: rgba(231, 231, 231, 0.573) 1px 0 10px;
 }
 
 input[type="search"] {
