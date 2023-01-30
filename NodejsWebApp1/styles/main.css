@@ -2,6 +2,9 @@
   text-decoration: none;
   color: black;
 }
+p {
+  margin-top: 10em;
+}
 a:hover {
   font-size: 1.1rem;
   text-shadow: rgba(0, 0, 0, 0.573) 1px 0 10px;
@@ -12,14 +15,48 @@ a:hover {
   margin: 0px 0px 0px 25px;
 }
 
-input[type="text"] {
+input[type="search"] {
   transition: width 0.4s ease-in-out;
   outline: none;
   width: 20%;
 }
 
-input[type="text"]:focus {
+input[type="search"]:focus {
   width: 300px;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  text-align: center;
+}
+input[type="text"]:focus {
+  border-radius: 10px;
+  border: 0px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+input[type="password"] {
+  border-radius: 10px;
+  text-align: center;
+}
+input[type="password"]:focus {
+  border-radius: 10px;
+  border: 0px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+input[type="mail"] {
+  border-radius: 10px;
+  text-align: center;
+}
+input[type="mail"]:focus {
+  border-radius: 10px;
+  border: 0px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  outline: none;
 }
 
 .search {
@@ -49,16 +86,54 @@ input[type="text"]:focus {
 }
 
 .block1 {
-  margin-left: 5px;
-  background-color: #00000080;
+  display: block;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?auto=format&h=200");
   backdrop-filter: blur(4px);
-  height: 100px;
-  width: 200px;
-  border-radius: 2px;
+  border-radius: 10px;
   border-color: blanchedalmond;
-  border: 2px solid;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  width: 13em;
+  height: 15em;
+}
+.block3 {
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?auto=format&h=200");
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border-color: blanchedalmond;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  width: 13em;
+  height: 18.5em;
 }
 .block2 {
   margin-left: 100px;
   margin-right: 100px;
+}
+.auto_center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  width: 13em;
+}
+.button_ok {
+  background-color: rgb(0, 0, 0);
+  border: 1px;
+  border-color: brown;
+  border-radius: 10px;
+  color: azure;
+  filter: drop-shadow(0 0 0.25rem rgb(0, 0, 0));
+  transition: 1s;
+}
+.button_ok:hover {
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  color: black;
+  transform: scale(1.2);
 }
