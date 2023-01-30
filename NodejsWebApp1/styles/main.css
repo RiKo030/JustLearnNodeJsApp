@@ -1,11 +1,32 @@
+.a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-size: 1.1rem;
+  text-shadow: rgba(0, 0, 0, 0.573) 1px 0 10px;
+}
 .main_logo {
   width: 50px;
   height: 34px;
   margin: 0px 0px 0px 25px;
 }
+
+input[type="text"] {
+  transition: width 0.4s ease-in-out;
+  outline: none;
+  width: 20%;
+}
+
+input[type="text"]:focus {
+  width: 300px;
+}
+
 .search {
   border: none;
+  font-size: 22px;
 }
+
 #logo_div {
   width: 10%;
   display: inline-block;
@@ -21,4 +42,23 @@
 .user_button {
   display: inline-block;
   margin-right: 10px;
+}
+.background {
+  text-align: center;
+  background-color: rgb(178, 245, 245);
+}
+
+.block1 {
+  margin-left: 5px;
+  background-color: #00000080;
+  backdrop-filter: blur(4px);
+  height: 100px;
+  width: 200px;
+  border-radius: 2px;
+  border-color: blanchedalmond;
+  border: 2px solid;
+}
+.block2 {
+  margin-left: 100px;
+  margin-right: 100px;
 }
