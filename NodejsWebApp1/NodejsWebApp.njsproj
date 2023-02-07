@@ -36,6 +36,9 @@
     <Content Include="controllers\userController.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="db.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\img\logo\NASA_logo.svg.png" />
     <Content Include="styles\main.css">
       <SubType>Code</SubType>
@@ -49,6 +52,8 @@
     <Content Include="views\main.hbs">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\partials\userAccount.hbs" />
+    <Content Include="views\partials\userRegistration.hbs" />
     <Content Include="views\partials\footer.hbs">
       <SubType>Code</SubType>
     </Content>

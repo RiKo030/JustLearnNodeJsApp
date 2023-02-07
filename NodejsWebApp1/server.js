@@ -4,20 +4,9 @@ const express = require('express');
 const expressHbs = require('express-handlebars');
 const hbs = require("hbs");
 const path = require('path');
-const { Client } = require('pg');
+const bd = require("./db");
 var app = express();
 
-/*//dbClient with credentials to database
-const client = new Client({
-    host: 'localhost',
-    port: 5432,
-    user: 'postgres',
-    password: '12345Forking'
-});
-//Connect to database
-client.connect()
-    .then(() => console.log('Connected'))
-    .catch((err) => console.log('Connection error', err.stack));*/
 
 //Public files with acces from browser
 app.use(express.static(path.join(__dirname, 'public'))); 
@@ -41,6 +30,7 @@ var userController = require('./controllers/userController.js');
 try {
     app.get("/", mainController.main);
     app.get("/user/regisration", userController.userRegistration);
+    app.post("/user/registration", userController.registerUser)
     app.get("/user/account/", userController.userAccount);
     app.listen(1337);
 }
